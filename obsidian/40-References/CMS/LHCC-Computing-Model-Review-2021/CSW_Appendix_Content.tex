@@ -1,0 +1,114 @@
+\section{Common software activities: requirements, timelines, contributions}
+% %
+% % Outline of high-level requirements, expected timelines, and any contributions they intended to make to the Common Software Activities.Please note dependencies and any special functionality, external packages, or interfaces required.
+% %
+In the charge for the review of common software activities, we were asked to outline high-level requirements, expected timelines, and any contributions that the experiment intended to make to those common software activities, noting any external dependencies or interfaces required. %Contributions in the context of the review is understood mean effort that is coordinated centrally by the experiment.
+
+The high-level requirements in the areas of simulation, ROOT foundation, analysis, DOMA tools, and event generators, outlined in the subsections that follow, were communicated either in dedicated mini-workshops that took place in the second quarter of 2021 in the case of simulation, analysis, and DOMA, or through pre-existing regular channels of communication with the development communities.
+
+The CMS Offline Software and Computing coordination area does not maintain a budget for software development effort, only for maintenance and operations (M\&O). However, in each of the areas covered by the review, CMS members are active participants in the respective development communities. Estimations of current and future levels of such contributions of effort are also listed.
+
+\subsection{Simulation}
+Communication and discussion of the following high-level requirements for simulation took place in a dedicated mini-workshop held on April 29, 2021~\footnote{\url{https://indico.cern.ch/event/1028379/}}.
+The summary of the high level requirements for the start of Run 4 is the following:
+\begin{itemize}
+    \item Keep up the yearly software performance improvements or increase them. The aspirational objective of halving the time per event simulated seems adequate.
+    \item Continue to provide options to tune software performance such as VecGeom~\cite{Wenzel:2754098} and improved physics lists to the needs of CMS. Moreover, adequate interfaces should be preserved and further enhanced to plug into Geant4 CMS specific simulation methods such as parametrized forward showers.
+    \item Preserve or improve the physics accuracy improvements of Geant4, aiming for high quality simulation of response of new sub-detectors in CMS, most notably HGCAL.
+    \item CMS is interested in testing any new GPU targeted prototype of Geant4. Working beta versions should be provided to CMS as they become available.
+    \item CMS is interested in common ML driven solutions for simulation provided. Innovations in this direction should be provided to CMS as soon as they become available.
+    \item At least one person from the core Geant4 team needs to be actively engaged with the simulation activities in CMS, notably for the integration of new versions or tuning of new models.
+\end{itemize}
+
+Estimated contribution of effort by CMS members to  development activities for common software in the area of simulation is 1.7 FTE to Geant4 in the form of four persons with different levels of commitment dedicated to the areas physics, geometry and validation. There are no current contributions of effort to DD4Hep, as we CMS are effectively a user. However, in 2020 there was some level of contribution stemming from the CMS integration effort.
+
+\subsection{ROOT Foundation}
+Communication and discussion of the high-level requirements for the ROOT Foundation took place in the context of regular channels of communication with the ROOT development team in the context of the ``ROOT and Experiments'' meeting~\footnote{\url{https://indico.cern.ch/category/11833/}} and private communication. 
+The summary of the high level requirements for the start of Run 4 is the following:
+\begin{itemize}
+    \item Continue the work on ways to efficiently represent the CMS data model in the ROOT file format, delivering a slimmer and more efficient version of the ROOT columnar storage, also allowing to reduce the storage needs.
+    \item Preserve and improve the thread friendliness of the ROOT core type system and IO layer, therewith allowing good scaling with the number of cores of CMS applications writing and reading from storage.
+    \item Continue to support web-based graphics, expanding its functionality, most notably in the area of event visualization.
+    \item Keep the ROOT core up to date with respect to the evolution of external software technologies, most notably newer C++ standards or integration with Python.
+\end{itemize}
+
+The estimated contribution of effort by CMS members to development activities for Foundation components of ROOT is at the level of 1.2 FTEs and is focussed on I/O, just-in-time compilation, automatic differentiation and data compression.
+%This contribution is divided in 0.5 for I/O, 0.5 JIT/automatic differentiation, 0.2 for targeted R\&D efforts such as compression algorithms. % Too precise wrt the others
+On top of these more structured commitments, punctual development activities take place in CMS which then materialize as code contributions to the ROOT repository, often coming from the Core Software area.
+
+%From Tulika (US CMS Ops Program contribution): 0.55 FTE of Philippe Canal and 0.25 FTE of Vasile Vassilev, so a total of 0.8 FTE. Need to verify other contributions.
+% Then .25 from David
+
+\subsection{Analysis tools}
+Communication and discussion of the following high-level requirements for analysis took place in a dedicated mini-workshop held on May 4, 2021~\footnote{\url{https://indico.cern.ch/event/1028381/}}.
+The summary of the high level requirements for the start of Run 4 is the following:
+\begin{itemize}
+    \item Efficiency of analysis is of primary importance. The analysis of data must be as fast as possible, to allow physicists to have a fast turn around and try new ideas. 
+    \item Fitting strategies should evolve. Methods based on finite differences should be improved to cope with the increase of the data to analyze. In particular considering the growing interest for unbinned fits.
+    \item Flexibility in the access of storage is key. The highest read rate possible should be achieved when reading remotely (e.g. through XrootD remote reads), accessing local mass storage (e.g. EOS), utilizing data caches (e.g. XCache) or local fast disks.
+    \item Communication and collaboration between teams providing analysis packages is a fundamental aspect of the success of the future CMS analysis: it should be preserved and enhanced.
+    \item Interoperability between the products provided by different teams has to be guaranteed, minimizing data conversion. Collaboration between different library providers is also to be pursued.
+    \item Ergonomic user interfaces to powerful underlying libraries must be offered to analyzers, aiming to minimize boiler plate code and potential mistakes.
+    \item Active engagement is needed by the development team of analysis libraries with the analysis activities in CMS, to adapt new versions of the tools to analysis and other use cases of the experiment (e.g. alignment, calibrations).
+\end{itemize}
+
+The estimated contribution of effort by CMS members to development activities for common software in the area of analysis tools is 3-4 FTEs focusing on Python ecosystems and analysis facilities R\&D.
+
+% From Oli
+% Ops: 0.75 FTE in python ecosystem R&D: Pivarski and Ianna
+% Ops: 1.10 FTE in analysis facility R&D (FNAL and various other institutes)
+% There are a lot of contributions from the research budget which are hard to quantify:
+% Lindsey, Nick, Matteo, other university groups are investing into coffea like approaches
+% There is also IRIS-HEP, and direct shared investment are a lot, I don’t know all their fractions
+% Pivarski 0.75, Ianna 0.5, but there are also Oksana and other who are paid and working on this
+
+\subsection{DOMA tools}
+Communication and discussion of the following high-level requirements for DOMA tools took place during two mini-workshops held on June 1, 2021 for RUCIO, FTS, and networking~\footnote{\url{https://indico.cern.ch/event/1043829/}} and on June 8, 2021 for storage technologies~\footnote{\tt{https://indico.cern.ch/event/1043848/}}.
+The summary of the high level requirements for the start of Run 4 is the following:
+\begin{itemize}
+    \item Incorporate strategies for packet marking, traffic shaping and SDNs into FTS/RUCIO in a way which is transparent to CMS.
+    \item Support for large ($>$100 GB) file transfers to ease Tier-0 operations in the HL-LHC era, also easing the burden on bookkeeping tools. 
+    \item The stability and scalability of xRootD is very important as well as its reliable monitoring. A mechanism to throttle traffic for categories of users, for example at a certain site, is very desirable.
+    \item CMS requires excellent performance for all the storage technologies (e.g. Echo, dCache, EOS), including support for streaming data from storage elements and support for (partial) reads of columnar datasets.
+    \item XCache support is needed in the HL-LHC era.
+    \item Four of the seven CMS Tier-1 sites (RAL, Fermilab, JINR, and PIC) are either installing, evaluating, or interested in evaluating CTA as a common software solution for tape management. CERN support for a ``CTA users community'' for use at Tier-1 sites would be highly desirable.
+    \item While we appreciate the current open and transparent open source model behind RUCIO and are very happy with the collaboration with RUCIO developers, we note an asymmetry with respect to other common software projects in HEP, that none has its core development team inside a particular experiment. Even if not a problem today, unforeseen issues affecting sustainability could arise in the next 5 years, such as changes of research direction or priorities of the team where RUCIO is mainly developed or effort cuts. Complementing the current RUCIO development effort with experiment-independent supporting contributions would mitigate these risks.
+\end{itemize}
+
+There are currently no significant contributions of effort by CMS members to development activities for common software in the area of DOMA tools such as RUCIO, apart from CMS-specific tasks, although there have been contributions in the past, e.g. the Kubernetes set-up. There is a recognized need to contribute to RUCIO development which may not immediately benefit CMS at the level of 2 FTE. Examples of tasks CMS could contribute to if we had effort include token authorization, Globus Online Transfers and a generic dynamic data management daemon that could be used in CMS.
+% See: https://docs.google.com/document/d/1Isf0GoE725LJaI4tfNST45pQu1thUQvtXiICXbeZQR0/edit
+
+\subsection{Event generators}
+Communication and discussion of the high-level requirements for event generators took place in the context of regular channels of communication in the HSF Event Generator Working Group~\footnote{\url{https://indico.cern.ch/category/8460/}}.
+The summary of the high level requirements for the start of Run 4 is the following:
+\begin{itemize}
+    \item The Monte Carlo generators community should make software performance a priority, investing effort in reducing the time per event as well as the overall memory footprint needed today.
+    \item Negative weights can have a substantial impact on the CPU and storage resources needed for the creation of simulated datasets. The event generators providers should continue the current work being done in this area, with the aim to eliminate or, at least, greatly mitigate the issue of negative weights.
+    \item The worflows of CMS are multithreaded. Event generators should work well in a multithreaded environment (e.g. multiple instances of the same generator should be usable within the same process), not obliging CMS to adopt ad-hoc solutions to work around this limitation. More in general, event generators should be designed to work in a multithreaded environment on a distributed computing systems which has the objective to generate tens of billions of events per year.
+    \item CMS is interested in testing any new GPU-based prototype of event generators. Working beta versions should be provided to CMS as they become available keeping into account the constraints a modern HEP data processing framework impose on the external packages it relies on. For example, the interface of the new generators should not change with respect to the one provided by the CPU based counterpart and no assumption shall be made about the characteristic of the underlying platform: the settings of the data processing framework will have to be easily propagated to the event generator.
+\end{itemize}
+
+%Estimated contribution of effort by CMS members to external development activities for event generators currently includes 0.8 FTE for co-authoring event generators, 0.2 FTE for work on tuning tools, and 0.1 FTE on other servcice tasks, for a total of 1.1 FTE. % too precise
+Estimated contribution of effort by CMS members to external development activities for event generators currently includes 1.1 FTEs focussed on co-authoring event generators, tuning tools, and other servcice tasks.
+
+\subsection{Summary of contributions}
+Table~\ref{tab:cs_contributions} summarizes the effort that CMS manages dedicated to common software activities. We are aware that CMS is contributing much more to common software projects in a less organized way. For example, many CMS collaborators fully embrace the open source model that characterizes the cornerstones of our software stacks. They contribute valuable code, bug reports, pieces of documentation, or early testing even if not directly managed centrally by the Experiment.
+
+\begin{table}[ht]
+\begin{center}
+\caption{Summary of the contributions centrally coordinated by CMS to common software activities.}
+\label{tab:cs_contributions}
+\begin{tabular}{lcl} 
+\hline
+\rowcolor{tableheader} \B{Activity} & \B{FTE} & \B{Areas} \\
+\hline  \hline
+\trh Simulation             & 1.7                   & Physics, geometry, validation \\ 
+\trh ROOT Foundation        & 1.2                   & I/O, JIT, automatic differentiation, event display, compression \\ 
+\trh Analysis Tools         & 3-4                   & Python ecosystems and analysis facilities R\&D\\ 
+\trh DOMA Tools             & $-$                   & If effort were available, token authorization, Globus \\
+\trh                        &                       & Online transfers, generic dynamic data management daemon \\
+\trh Generators             & 1.1                   & Co-authoring, tuning tools, service tasks \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}

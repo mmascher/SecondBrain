@@ -1,0 +1,22 @@
+# Raw transcripts — backed up separately
+/raw transcripts/
+
+# Cloned source repositories — each has its own Git history
+/obsidian/80-Code/
+
+# Editor / temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.bak2
+*.bak3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store

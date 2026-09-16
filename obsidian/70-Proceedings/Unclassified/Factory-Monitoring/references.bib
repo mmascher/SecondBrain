@@ -1,0 +1,89 @@
+@misc{GlideinWMSSoft,
+  author       = {Parag Mhashilkar and
+                  Marco Mambelli and
+                  Igor Sfiligoi and
+                  Burt Holzman and
+                  Krista Majewski and
+                  J M Dost and
+                  Dennis Box and
+                  Marco Mascheroni and
+                  John Weigand and
+                  Lorena Lobato and
+                  Thomas Hein and
+                  Brian Lin and
+                  Edgar Fajardo and
+                  Derek Weitzel and
+                  Mats Rynge and
+                  Brian Bockelman and
+                  Matyas Selmeci},
+  title        = {glideinWMS/glideinwms: v3.4},
+  month        = jul,
+  year         = 2018,
+  doi          = {10.5281/zenodo.1309679},
+  url          = {https://doi.org/10.5281/zenodo.1309679}
+}
+
+@article{osg,
+  author={Ruth Pordes and Don Petravick and Bill Kramer and Doug Olson and Miron Livny and Alain Roy and Paul Avery and Kent
+Blackburn and Torre Wenaus and Frank Würthwein and Ian Foster and Rob Gardner and Mike Wilde and Alan Blatecky and John
+McGee and Rob Quick},
+  title={The open science grid},
+  journal={Journal of Physics: Conference Series},
+  volume={78},
+  number={1},
+  pages={012057},
+  url={http://stacks.iop.org/1742-6596/78/i=1/a=012057},
+  year={2007},
+  abstract={The Open Science Grid (OSG) provides a distributed facility where the Consortium members provide guaranteed and opportunistic access to shared computing and storage resources. OSG provides support for and evolution of the infrastructure through activities that cover operations, security, software, troubleshooting, addition of new capabilities, and support for existing and engagement with new communities. The OSG SciDAC-2 project provides specific activities to manage and evolve the distributed infrastructure and support it's use. The innovative aspects of the project are the maintenance and performance of a collaborative (shared & common) petascale national facility over tens of autonomous computing sites, for many hundreds of users, transferring terabytes of data a day, executing tens of thousands of jobs a day, and providing robust and usable resources for scientific groups of all types and sizes. More information can be found at the OSG web site: www.opensciencegrid.org.}
+}
+
+  	
+@article{FactoryOps,
+  author={I Sfiligoi and J M Dost and M Zvada and I Butenas and B Holzman and F Wuerthwein and P Kreuzer and S W Teige and R Quick and J M
+Hern√°ndez and J Flix},
+  title={The benefits and challenges of sharing glidein factory operations across nine time zones between OSG and CMS},
+  journal={Journal of Physics: Conference Series},
+  volume={396},
+  number={3},
+  pages={032103},
+  url={http://stacks.iop.org/1742-6596/396/i=3/a=032103},
+  year={2012},
+  abstract={OSG has been operating for a few years at UCSD a glideinWMS factory for several scientific communities, including CMS analysis, HCC and GLOW. This setup worked fine, but it had become a single point of failure. OSG thus recently added another instance at Indiana University, serving the same user communities. Similarly, CMS has been operating a glidein factory dedicated to reprocessing activities at Fermilab, with similar results. Recently, CMS decided to host another glidein factory at CERN, to increase the availability of the system, both for analysis, MC and reprocessing jobs. Given the large overlap between this new factory and the three factories in the US, and given that CMS represents a significant fraction of glideins going through the OSG factories, CMS and OSG formed a common operations team that operates all of the above factories. The reasoning behind this arrangement is that most operational issues stem from Grid-related problems, and are very similar for all the factory instances. Solving a problem in one instance thus very often solves the problem for all of them. This paper presents the operational experience of how we address both the social and technical issues of running multiple instances of a glideinWMS factory with operations staff spanning multiple time zones on two continents.}
+}
+
+@misc{rrdtool,
+  title = {{RRDTool}},
+  howpublished = {\url{https://oss.oetiker.ch/rrdtool/}},
+  note = {{Accessed: 2019-02-01}}
+}
+
+@misc{influxdb,
+  title = {{InfluxDB}},
+  howpublished = {\url{https://www.influxdata.com/time-series-platform/influxdb/}},
+  note = {{Accessed: 2019-02-01}}
+}
+
+@misc{elasticsearch,
+  title = {{Elasticsearch}},
+  howpublished = {\url{https://www.elastic.co/products/elasticsearch}},
+  note = {{Accessed: 2019-02-01}}
+}
+
+@article{gracc,
+	doi = {10.1088/1742-6596/898/9/092044},
+	url = {https://doi.org/10.1088%2F1742-6596%2F898%2F9%2F092044},
+	year = 2017,
+	month = {oct},
+	publisher = {{IOP} Publishing},
+	volume = {898},
+	pages = {092044},
+	author = {K Retzke and D Weitzel and S Bhat and T Levshina and B Bockelman and B Jayatilaka and C Sehgal and R Quick and F Wuerthwein},
+	title = {{GRACC}: New generation of the {OSG} accounting},
+	journal = {Journal of Physics: Conference Series},
+	annote = {Throughout the last decade the Open Science Grid (OSG) has been fielding requests from user communities, resource owners, and funding agencies to provide information about utilization of OSG resources. Requested data include traditional accounting - core-hours utilized - as well as users certificate Distinguished Name, their affiliations, and field of science. The OSG accounting service, Gratia, developed in 2006, is able to provide this information and much more. However, with the rapid expansion and transformation of the OSG resources and access to them, we are faced with several challenges in adapting and maintaining the current accounting service. The newest changes include, but are not limited to, acceptance of users from numerous university campuses, whose jobs are flocking to OSG resources, expansion into new types of resources (public and private clouds, allocation-based HPC resources, and GPU farms), migration to pilot-based systems, and migration to multicore environments. In order to have a scalable, sustainable and expandable accounting service for the next few years, we are embarking on the development of the next-generation OSG accounting service, GRACC, that will be based on open-source technology and will be compatible with the existing system. It will consist of swappable, independent components, such as Logstash, Elasticsearch, Grafana, and RabbitMQ, that communicate through a data exchange. GRACC will continue to interface EGI and XSEDE accounting services and provide information in accordance with existing agreements. We will present the current architecture and working prototype.}
+	
+@misc{RabbitMQ,
+  title = {{Rabbitmq}},
+  howpublished = {\url{https://www.rabbitmq.com/}},
+  note = {{Accessed: 2019-02-01}}
+}

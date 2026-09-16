@@ -1,0 +1,72 @@
+\documentclass{article}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[utf8]{inputenc}
+
+\title{CMS Input to Common Software Projects\\Extracted from the documentation for the LHCC Computing Model and Common Software Review}
+\date{October 2021}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+% tables
+\usepackage{lscape} 
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{colortbl}
+
+\usepackage[nomargin,inline,marginclue,draft]{fixme}
+\usepackage[sorting=none]{biblatex}
+\addbibresource{bibliography.bib} %Imports bibliography file
+
+\usepackage{pgfgantt}
+
+\usepackage{graphicx}
+\graphicspath{ {./Figures/} }
+
+% from https://design-guidelines.web.cern.ch/guidelines/ppt-colours
+\definecolor{myblue}{RGB}{0,51,160} % Pantone 286C
+\definecolor{myorange}{RGB}{225,94,50}
+\definecolor{mycyan}{RGB}{97,197,211}
+\colorlet{tableheader}{myblue!60}
+\colorlet{tablerowheader}{myblue!20}
+\newcommand{\trh}{\cellcolor{tablerowheader}}
+\colorlet{tablerowhighlight}{myblue!5}
+\newcommand{\trl}{\cellcolor{tablerowhighlight}}
+
+%\usepackage{lineno}
+%\linenumbers
+
+\newcounter{magicrownumbers}
+\preto\tabular{\setcounter{magicrownumbers}{0}}
+%\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+\newcommand\rownumber{\refstepcounter{magicrownumbers}\arabic{magicrownumbers}}
+
+\newcommand{\B}[1]{\textbf{#1}}
+\newcommand{\UP}[1]{\multirow{-2}{*}{\B{#1}}}
+
+\begin{document}
+
+\newcolumntype{R}[2]{%
+    >{\adjustbox{angle=#1,lap=\width-(#2)}\bgroup}%
+    l%
+    <{\egroup}%
+}
+\newcommand*\rot{\multicolumn{1}{R{90}{1em}}}
+
+
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\include{CSW_Appendix_Content}
+
+\newpage
+\printbibliography
+\end{document}

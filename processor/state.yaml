@@ -1,0 +1,913 @@
+version: 1
+raw_transcripts: /home/marco/development/SubmissionInfrastructureBrain/raw transcripts
+meeting_notes: /home/marco/development/SubmissionInfrastructureBrain/obsidian/20-Meetings
+transcripts:
+- path: 2025-11-28 09.52.32 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 151
+  lines: 6
+  status: skipped_non_substantive
+  manual: true
+- path: 2025-11-28 09.56.31 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 108
+  lines: 6
+  status: skipped_non_substantive
+  manual: true
+- path: 2025-11-28 10.05.31 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 107
+  lines: 6
+  status: skipped_non_substantive
+  manual: true
+- path: 2025-12-11 17.18.16 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 45567
+  lines: 1449
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2025-12-11-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2025-12-22 16.03.56 HTCondor and CMS WMS for HL-LHC
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 64724
+  lines: 2262
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2025-12-22-HTCondor-and-CMS-WMS-for-HL-LHC.md
+- path: 2026-01-08 17.06.42 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 24097
+  lines: 720
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-01-08-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-01-15 17.18.49 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 46285
+  lines: 1647
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-01-15-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-01-20 17.01.45 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 325
+  lines: 18
+  status: skipped_non_substantive
+  manual: true
+- path: 2026-01-22 17.37.33 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 33831
+  lines: 1230
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-01-22-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-02-05 17.06.30 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 58562
+  lines: 1734
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-02-05-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-02-17 17.24.54 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 30788
+  lines: 849
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-02-17-OSG-Factory-Ops-Meeting.md
+- path: 2026-02-18 17.19.56 GlideinWMS Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 264
+  lines: 9
+  status: skipped_non_substantive
+  manual: true
+- path: 2026-02-18 18.07.40 CMS Submission Infrastructure meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 21623
+  lines: 801
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-02-18-CMS-Submission-Infrastructure-Meeting.md
+- path: 2026-02-18 18.26.46 CMS Submission Infrastructure meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 51
+  lines: 3
+  status: skipped_non_substantive
+  manual: true
+- path: 2026-02-19 15.07.57 Sala riunioni personale di Andrea Piccinelli
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 64808
+  lines: 2460
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-02-19-CMS-WMS-Architecture-Discussion.md
+- path: 2026-02-19 17.37.09 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 65191
+  lines: 1968
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-02-19-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-02-26 17.09.32 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 58724
+  lines: 1743
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-02-26-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-03-02 16.28.23 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 113481
+  lines: 3300
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-02-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-03-03 15.09.24 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 139711
+  lines: 4281
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-03-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-03-04 11.43.28 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 96004
+  lines: 2196
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-04-CMS-Computing-Model-Submission-Infrastructure-Onboarding.md
+- path: 2026-03-05 17.25.19 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 57898
+  lines: 1734
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-05-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-03-06 17.18.35 Dmytro Kovalskyi's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 86138
+  lines: 2100
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-06-Prototype-Workflow-Systems-and-AI-Assisted-Development.md
+- path: 2026-03-10 14.43.43 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 75204
+  lines: 2712
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-10-GlideinWMS-Integration-PanDA-DIRAC-Slide-Prep.md
+- path: 2026-03-10 17.15.12 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 11941
+  lines: 387
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-10-OSG-Factory-Ops-Meeting.md
+- path: 2026-03-11 14.13.35 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 63636
+  lines: 2334
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-11-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-03-11 15.48.37 CMS O&C Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 48087
+  lines: 927
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-11-CMS-OC-Weekly-Meeting.md
+- path: 2026-03-23 16.32.19 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 4050
+  lines: 141
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-23-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-03-24 16.13.43 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 24248
+  lines: 690
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-24-OSG-Factory-Ops-Meeting.md
+- path: 2026-03-26 10.05.57 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 60999
+  lines: 2013
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-26-1005-GlideinWMS-Entry-Troubleshooting-and-Site-Token-Migration.md
+- path: 2026-03-26 14.02.18 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 72535
+  lines: 2223
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-26-1402-GPU-Sharing-MIG-vs-MPS-Discussion.md
+- path: 2026-03-26 17.16.46 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 56419
+  lines: 1314
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-03-26-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-04-01 17.17.56 GlideinWMS Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 5509
+  lines: 165
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-01-GlideinWMS-Meeting.md
+- path: 2026-04-09 10.58.16 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 76383
+  lines: 2697
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-09-HTCondor-Training-Session.md
+- path: 2026-04-09 17.02.59 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 69640
+  lines: 1890
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-09-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-04-10 10.00.03 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 108260
+  lines: 3813
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-10-Overload-Enabled-Fix-Planning-and-Condor-Overview-Training.md
+- path: 2026-04-14 17.06.39 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 15045
+  lines: 432
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-14-OSG-Factory-Ops-Meeting.md
+- path: 2026-04-16 17.05.49 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 44632
+  lines: 1188
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-16-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-04-21 16.42.45 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 36921
+  lines: 1386
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-21-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-04-21 17.02.47 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 27234
+  lines: 1002
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-21-OSG-Factory-Ops-Meeting.md
+- path: 2026-04-22 17.18.19 GlideinWMS Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 24045
+  lines: 666
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-22-GlideinWMS-Meeting.md
+- path: 2026-04-23 17.13.45 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 59524
+  lines: 1926
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-23-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-04-27 14.14.15 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 55980
+  lines: 2274
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-27-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-04-28 17.06.49 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 24656
+  lines: 702
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-28-OSG-Factory-Ops-Meeting.md
+- path: 2026-04-29 18.05.09 CMS Submission Infrastructure meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 35397
+  lines: 1380
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-29-CMS-Submission-Infrastructure-Meeting.md
+- path: 2026-04-30 17.22.34 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 79806
+  lines: 2775
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-04-30-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-05-05 17.08.47 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 17604
+  lines: 630
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-05-OSG-Factory-Ops-Meeting.md
+- path: 2026-05-06 16.26.51 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 167963
+  lines: 5505
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-06-WM-Dev-Team-Weekly-Meeting-Data-Placement-and-SI-Requirements-Review.md
+- path: 2026-05-07 17.35.53 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 45799
+  lines: 1494
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-07-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-05-08 11.42.56 Stephan Lammel's Zoom Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 56786
+  lines: 1734
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-08-Submission-Infrastructure-Candidate-Interview-Pablo-Izquierdo.md
+- path: 2026-05-08 14.18.56 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 54525
+  lines: 2409
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-08-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-05-08 17.27.10 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 36751
+  lines: 1422
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-08-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-05-19 17.07.07 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 20505
+  lines: 777
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-19-OSG-Factory-Ops-Meeting.md
+- path: 2026-05-19 19.03.07 Stephan Lammel's Zoom Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 37616
+  lines: 1341
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-19-Submission-Infrastructure-Candidate-Interview-Sanji.md
+- path: 2026-05-20 14.10.00 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 56311
+  lines: 2352
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-20-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-05-21 17.10.31 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 82099
+  lines: 3186
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-21-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-05-26 15.31.44 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 36809
+  lines: 1554
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-26-GlideinWMS-Architecture-Walkthrough.md
+- path: 2026-05-26 16.37.02 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 33890
+  lines: 1005
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-26-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-05-27 14.49.05 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 80958
+  lines: 3513
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-27-GlideinWMS-Pilot-Lifecycle-Walkthrough.md
+- path: 2026-05-29 10.06.01 Stephan Lammel's Zoom Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 110563
+  lines: 3195
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-29-Submission-Infrastructure-Candidate-Interview-and-DIRAC-Decision-Debrief.md
+- path: 2026-05-29 14.12.44 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 28741
+  lines: 1155
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-05-29-Pilot-Monitoring-and-Efficiency-Presentation-Prep.md
+- path: 2026-06-04 17.11.36 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 83538
+  lines: 3489
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-06-04-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-06-05 15.23.10 Scarlet Rachel Norberg's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 49525
+  lines: 1791
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-06-05-Submission-Infrastructure-Budget-Review-Planning.md
+- path: 2026-06-23 15.55.40 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 42155
+  lines: 1830
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-06-23-GlideinWMS-Architecture-Training-and-Site-Token-Migration-Status.md
+- path: 2026-06-23 17.10.54 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 24503
+  lines: 861
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-06-23-OSG-Factory-Ops-Meeting.md
+- path: 2026-06-24 17.04.47 GlideinWMS Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 21319
+  lines: 789
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-06-24-GlideinWMS-Meeting.md
+- path: 2026-06-24 18.08.31 CMS Submission Infrastructure meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 30252
+  lines: 1158
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-06-24-CMS-Submission-Infrastructure-Meeting.md
+- path: 2026-06-24 22.29.01 Valentin Y Kuznetsov's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 32061
+  lines: 1020
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-06-24-DiracX-Evaluation-and-WMS-Integration-Planning.md
+- path: 2026-06-25 17.02.40 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 24721
+  lines: 1161
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-06-25-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-06-30 17.04.16 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 33232
+  lines: 1539
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-06-30-OSG-Factory-Ops-Meeting.md
+- path: 2026-07-06 17.33.27 Computing Operations Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 27202
+  lines: 825
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-06-Computing-Operations-Meeting.md
+- path: 2026-07-07 16.02.38 Automation + WMS Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 55247
+  lines: 1662
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-07-Automation-and-WMS-Meeting.md
+- path: 2026-07-07 17.08.03 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 31444
+  lines: 1209
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-07-OSG-Factory-Ops-Meeting.md
+- path: 2026-07-08 14.03.25 Chat about data-aware
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 48272
+  lines: 2220
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-08-Data-Aware-Matchmaking-Design-Discussion.md
+- path: 2026-07-08 17.09.33 GlideinWMS Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 42452
+  lines: 1239
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-08-GlideinWMS-Meeting.md
+- path: 2026-07-08 18.03.21 CMS Submission Infrastructure meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 42297
+  lines: 1476
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-08-DiracX-InterSeed-HTCondor-GAHP-BLAHP-Discussion.md
+- path: 2026-07-09 10.04.06 BiLD
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 45351
+  lines: 1848
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-09-DIRAC-DiracX-Sprint-Review-and-Planning-Meeting.md
+- path: 2026-07-09 17.18.17 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 46486
+  lines: 1605
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-09-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-07-13 15.10.08 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 153627
+  lines: 4902
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-13-New-WM-Dev-Team-Weekly-Meeting-Effort-Roundtable-and-Use-Case-Boundaries.md
+- path: 2026-07-14 16.12.44 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 53106
+  lines: 2040
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-14-DiracX-InterSeed-and-HTCondor-Access-Point-Discussion.md
+- path: 2026-07-14 17.05.59 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 36582
+  lines: 1518
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-14-OSG-Factory-Ops-Meeting.md
+- path: 2026-07-15 15.09.55 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 175032
+  lines: 6159
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-15-New-WM-Dev-Team-Weekly-Meeting-DiracX-Architecture-Deep-Dive.md
+- path: 2026-07-16 10.23.46 BiLD
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 22307
+  lines: 912
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-16-DIRAC-DiracX-Backlog-Grooming-and-Estimation-Meeting.md
+- path: 2026-07-16 15.25.49 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 36628
+  lines: 1290
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-16-WM-Dev-Team-Weekly-DiracX-Ticket-Prioritization-and-ADR-Review-Planning.md
+- path: 2026-07-16 16.04.49 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 111742
+  lines: 3894
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-16-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-07-17 14.31.14 Sala riunioni personale di Andrea Piccinelli
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 17410
+  lines: 909
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-17-Rucio-Caching-Meta-Job-Terminology-and-ADR-Recap.md
+- path: 2026-07-21 17.06.44 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 26372
+  lines: 1227
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-21-OSG-Factory-Ops-Meeting.md
+- path: 2026-07-23 10.24.46 BiLD
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 17235
+  lines: 840
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-23-DIRAC-DiracX-Sprint-Review-and-Retrospective-Meeting.md
+- path: 2026-07-23 15.34.20 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 62282
+  lines: 2292
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-23-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-07-23 16.12.12 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 1077
+  lines: 42
+  status: skipped_incomplete
+  manual: false
+- path: 2026-07-24 15.25.48 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 19955
+  lines: 870
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-24-GlideinWMS-Factory-Architecture-Walkthrough.md
+- path: 2026-07-28 17.07.29 OSG Factory Ops Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 38666
+  lines: 1530
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-28-OSG-Factory-Ops-Meeting.md
+- path: 2026-07-29 17.09.41 GlideinWMS Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 8724
+  lines: 300
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-29-GlideinWMS-Meeting.md
+- path: 2026-07-30 14.59.29 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 66698
+  lines: 2454
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-30-WM-Dev-Team-Weekly-DiracX-DIRAC-Deployment-and-Integration-Strategy.md
+- path: 2026-07-30 16.05.42 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 2440
+  lines: 105
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-30-Submission-Infrastructure-Weekly-Meeting-Early-Segment.md
+- path: 2026-07-30 16.09.22 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 24222
+  lines: 1023
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-07-30-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-08-12 10.40.14 PnR Dev Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 49438
+  lines: 1887
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-08-12-PnR-Failed-Job-CPU-Waste-Bad-Put-Discussion.md
+- path: 2026-08-13 10.16.37 BiLD
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 10894
+  lines: 552
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-08-13-DIRAC-DiracX-In-Progress-Review-and-Backlog-Triage-Meeting.md
+- path: 2026-08-13 15.10.28 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 47767
+  lines: 1518
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-08-13-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-08-13 16.44.52 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 64606
+  lines: 2883
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-08-13-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-08-14 10.03.49 DiracX interim job submission chat
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 51339
+  lines: 2184
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-08-14-DiracX-Interim-HTCondor-Job-Submission-Walkthrough.md
+- path: 2026-08-26 15.37.40 CMS O&C Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 20900
+  lines: 531
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-08-26-CMS-OC-Weekly-Meeting.md
+- path: 2026-08-27 10.18.04 BiLD
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 60831
+  lines: 2007
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-08-27-DIRAC-Ops-Meeting-Matchmaker-Prototype-and-VO-Round-Table.md
+- path: 2026-08-27 15.16.31 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 8463
+  lines: 300
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-08-27-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-08-27 15.22.09 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 38453
+  lines: 1098
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-08-27-New-WM-Dev-Team-Weekly-Meeting-DiracX-Storage-Helm-Charts-and-Token-Support.md
+- path: 2026-09-01 18.20.39 Marco Mascheroni's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 30823
+  lines: 1029
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-01-DiracX-Proof-of-Concept-Update-and-DMWM-Convenership-Discussion.md
+- path: 2026-09-02 10.33.40 Marco Mascheroni's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 51024
+  lines: 2178
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-02-HTCondor-Shadowing-Session-CNAF-Efficiency-Debugging.md
+- path: 2026-09-03 10.10.59 BiLD
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 38106
+  lines: 1698
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-03-DIRAC-DiracX-Sprint-Review-and-Planning-Meeting.md
+- path: 2026-09-03 15.29.03 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 49307
+  lines: 1662
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-03-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-09-03 17.06.17 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 75076
+  lines: 2670
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-03-Submission-Infrastructure-Weekly-Meeting.md
+- path: 2026-09-04 09.11.26 Marco Mascheroni's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 46409
+  lines: 1710
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-04-Conditions-Workshop-HLT-Provisioning-and-CWL-Discussion.md
+- path: 2026-09-04 14.18.15 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 29077
+  lines: 1200
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-04-GlideinWMS-and-HTCondor-Architecture-Walkthrough.md
+- path: 2026-09-04 17.53.47 Marco Mascheroni's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 34709
+  lines: 1359
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-04-Marco-WM-Level-2-Transition-and-SI-Priorities.md
+- path: 2026-09-07 15.41.13 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 19775
+  lines: 747
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-07-GlideinWMS-Factory-and-Frontend-Architecture-Follow-up.md
+- path: 2026-09-07 16.20.22 CMS Facilities, Services and Site support
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 20878
+  lines: 684
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-07-CMS-Facilities-Services-and-Site-Support.md
+- path: 2026-09-08 11.11.54 Marco Mascheroni's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 19109
+  lines: 678
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-08-CWL-Workflow-Prototype-Bottom-Up-vs-Top-Down-Design.md
+- path: 2026-09-08 11.27.06 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 135020
+  lines: 4779
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-08-Submission-Infrastructure-Weekly-Meeting-Team-Planning-and-Project-Roadmap.md
+- path: 2026-09-08 13.37.38 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 86438
+  lines: 2829
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-08-CWL-Translation-Job-Runtime-Requirements-Bottom-Up-vs-Top-Down.md
+- path: 2026-09-08 15.28.03 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 66458
+  lines: 2871
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-08-GlideinWMS-Frontend-Training-Terminology-and-Infrastructure-Walkthrough.md
+- path: 2026-09-09 10.03.05 BiLD
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 31984
+  lines: 1479
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-09-DIRAC-DiracX-Sprint-Review-Meeting.md
+- path: 2026-09-09 14.27.15 Conditions Preparation Workshop 2026
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 76548
+  lines: 2136
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-09-Conditions-Preparation-Workshop-2026-Validation-Tier0-and-Future-WMS.md
+- path: 2026-09-09 15.27.40 CMS O&C Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 59770
+  lines: 1389
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-09-CMS-OC-Weekly-Meeting-CPU-Efficiency-Strategy.md
+- path: 2026-09-09 17.09.26 GlideinWMS Meeting
+  transcript: GlideinWMS Meeting transcript_2026-09-09_17.54.47.txt
+  bytes: 39633
+  lines: 966
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-09-GlideinWMS-Meeting.md
+- path: 2026-09-09 18.00.52 CMS Submission Infrastructure meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 57267
+  lines: 2100
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-09-CMS-Submission-Infrastructure-Meeting-Data-Aware-Matchmaking-Immortal-Pilots-Condor24.md
+- path: 2026-09-10 15.01.47 New WM Dev team weekly meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 58034
+  lines: 2319
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-10-New-WM-Dev-Team-Weekly-Meeting.md
+- path: 2026-09-14 11.03.23 Marco Mascheroni's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 87
+  lines: 6
+  status: skipped_non_substantive
+  manual: false
+- path: 2026-09-14 13.36.31 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 70551
+  lines: 2856
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-14-HTCondor-Fundamentals-Training-Slots-Pools-and-Job-Submission.md
+- path: 2026-09-14 17.15.32 Computing Operations Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 5822
+  lines: 159
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-14-Computing-Operations-Meeting.md
+- path: 2026-09-15 13.37.47 Submission Infrastructure Weekly Meeting
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 64616
+  lines: 2760
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-15-GlideinWMS-Token-Authentication-JINR-Pressure-and-WMAgent-Condor25-Prep.md
+- path: 2026-09-15 17.05.09 OSG Factory Ops Meeting
+  transcript: OSG Factory Ops Meeting transcript_2026-09-15_17.18.18.txt
+  bytes: 17959
+  lines: 693
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-15-OSG-Factory-Ops-Meeting.md
+- path: 2026-09-15 17.47.29 Marco Mascheroni's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 32171
+  lines: 1386
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-15-Test18-DiracX-CMS-Prototype-Sandbox-Upload-Walkthrough.md
+- path: 2026-09-16 09.09.59 Marco Mascheroni's Personal Meeting Room
+  transcript: meeting_saved_closed_caption.txt
+  bytes: 18356
+  lines: 729
+  status: processed
+  manual: false
+  note: obsidian/20-Meetings/2026-09-16-WM-Retreat-and-DIRAC-Session-Planning.md
