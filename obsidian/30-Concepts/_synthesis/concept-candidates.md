@@ -37,7 +37,7 @@ were deliberately **not** proposed as standalone candidates; see
 
 ## Candidate 1: CMS's Adoption of DiracX as the Future Workload Management System
 
-**Status:** needs-review (discovery only — no approval marker set)
+**Status:** approved
 **Readiness:** ready for synthesis, with the explicit caveat that the subject
 is an active, fast-moving transition as of the corpus end date (2026-09-16).
 The note must clearly separate "decided" from "still being designed."
@@ -112,12 +112,7 @@ Liz Sexton-Kennedy).
 
 ### Integration points (candidate relationships — see Relationships below)
 
-- **HTCondor**: GAHP/BLAHP are internal HTCondor mechanisms not intended
-  for external reuse; DIRAC should submit via `condor_submit`/local schedd
-  instead (`2026-07-08`, reaffirmed `2026-07-09-DIRAC-DiracX-Sprint-Review-and-Planning-Meeting.md`).
-  "InterSeed" (Alexandre Boyer's rewrite of DIRAC's CE interface) vs. reuse
-  of HTCondor's Access Point/Condor-G is an unresolved architecture
-  question across `2026-07-08`, `2026-07-14`, `2026-07-30`, `2026-09-03`.
+- InterCEde and HTCondor pilot submission: InterCEde was proposed as the DIRAC-to-CE interface, with an approach advocated to reuse HTCondor for pilot submission to CEs, rather than building a separate submission mechanism. This is distinct from user-job submission, where DIRACX is expected to submit jobs via condor_submit to SI Access Points. The InterCEde/HTCondor pilot-submission idea was discussed in 2026-07-08, 2026-07-14, 2026-07-30, and 2026-09-03, but appears to have been dropped rather than remaining an active architecture question.
 - **glideinWMS/pilots**: the team explicitly converged on *not* adding
   direct links between glideinWMS/HTCondor and DiracX components beyond
   HTCondor access points, preserving modularity
@@ -199,7 +194,7 @@ Liz Sexton-Kennedy).
 
 ## Candidate 2: GlideinWMS Pilot-Based Resource Provisioning (Factory/Frontend Architecture and Pilot Lifecycle)
 
-**Status:** needs-review
+**Status:** approved
 **Readiness:** ready for synthesis — this is the most stable, best-corroborated
 architectural concept in the corpus, repeatedly re-explained consistently
 across independent training/walkthrough sessions over seven months.
@@ -303,7 +298,7 @@ maintain and re-teach, not settled-and-static trivia.
 
 ## Candidate 3: Site/Token Authentication Migration for Pilot Submission (SciTokens)
 
-**Status:** needs-review
+**Status:** approved
 **Readiness:** ready for synthesis — has a clear, well-evidenced start,
 middle (with named regressions), and a near-complete end state as of the
 latest meetings.
@@ -399,7 +394,7 @@ into it without preserving that distinction.
 
 ## Candidate 4: CMS CPU / Resource Efficiency as a Recurring Cross-Team Problem
 
-**Status:** needs-review
+**Status:** approved
 **Readiness:** ready for synthesis as an *open, unresolved* problem —
 the note should present current understanding and explicitly state that no
 CMS-wide efficiency metric or resolution exists yet, per SYNTHESIS.md's
@@ -482,7 +477,7 @@ complaint.
 
 ## Candidate 5: Submission Infrastructure — Scope, Computing-Model Role, and Team Structure
 
-**Status:** needs-review
+**Status:** approved
 **Readiness:** ready for synthesis for the computing-model/scope portion
 (well-anchored in a single canonical onboarding source, corroborated
 elsewhere); the team-structure portion is durable but changes fast enough
@@ -590,7 +585,7 @@ expertise dangerously in one person (Marco).
 
 ## Candidate 6: Data-Aware Matchmaking (Rucio-Distance-Based Job-to-Site Matching)
 
-**Status:** needs-review
+**Status:** needs-more-evidence
 **Readiness:** needs more evidence before synthesis — this is genuinely at
 proposal/sketch stage, with only two or three meetings, and the corpus
 itself contains an important internal distinction (two separate,
@@ -653,7 +648,7 @@ uncertainty) is recommended before promoting this to a full concept note.
 
 ## Candidate 7: CWL-Based Workflow/Job Translation Prototype (Bottom-Up vs. Top-Down Design Tension)
 
-**Status:** needs-review
+**Status:** needs-more-evidence
 **Readiness:** needs more evidence before synthesis — genuinely early
 prototype work explicitly deferred pending a larger decision, but flagged
 here because the underlying *design-philosophy tension* recurs across six
