@@ -1,4 +1,4 @@
-# SubmissionInfrastructureBrain
+# SecondBrain
 
 A personal knowledge base for the CMS Submission Infrastructure and Workload
 Management ecosystem.

@@ -255,6 +255,7 @@ def synthesis_prompt(output_dir, mode):
     }[mode]
 
     if mode == "synthesize":
+        output_status = {"synthesize": "synthesized", "update": "updated"}[mode]
         source = f"""
 The approved candidate list is:
 {CANDIDATES}
@@ -329,7 +330,7 @@ Also create:
   {output_dir}/result.yaml
 
 with:
-  status: {"synthesize": "synthesized", "update": "updated"}[mode]
+  status: {output_status}
 
 Do not modify existing concept notes directly during this operation.
 The Python wrapper will install the validated outputs.
