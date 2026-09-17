@@ -43,7 +43,7 @@ Pilots are deliberately configured to advertise and accept more CPU and memory t
 
 - Consumes and depends on the "overload"/oversubscription mechanism documented under [[GlideinWMS Pilot-Based Resource Provisioning]].
 - Overlaps in participants and timing with, but is conceptually distinct from, the "Immortal Pilots" and data-aware-matchmaking proposals — those are specific candidate mitigations, not restatements of the efficiency problem itself, and this vault's synthesis treats them separately.
-- Bears on [[CMS Adoption of DiracX for Future Workload Management]] indirectly: job/task-construction decisions (e.g., StepChain vs. TaskChain) that affect payload efficiency are expected to eventually move into DiracX's transformation system.
+- Bears on [[CMS Adoption of DiracX for Future Workflow Management]] indirectly: job/task-construction decisions (e.g., StepChain vs. TaskChain) that affect payload efficiency are expected to eventually move into DiracX's transformation system.
 
 ## Sources
 

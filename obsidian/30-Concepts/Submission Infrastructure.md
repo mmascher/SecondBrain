@@ -6,7 +6,7 @@ type: concept
 
 ## Overview
 
-Submission Infrastructure (SI) is CMS's function, team, and operational umbrella responsible for acquiring and allocating compute resources — via Compute Elements — for the collaboration's workloads. It is explicitly **not** responsible for data movement or storage. `[[Submission Infrastructure]]` is the second-most-referenced entity in the corpus and is the operational umbrella under which [[GlideinWMS Pilot-Based Resource Provisioning]], the [[Site Token Authentication Migration for Pilot Submission]], [[CMS CPU and Resource Efficiency]] work, and [[CMS Adoption of DiracX for Future Workload Management]] all sit.
+Submission Infrastructure (SI) is CMS's function, team, and operational umbrella responsible for acquiring and allocating compute resources — via Compute Elements — for the collaboration's workloads. It is explicitly **not** responsible for data movement or storage. `[[Submission Infrastructure]]` is the second-most-referenced entity in the corpus and is the operational umbrella under which [[GlideinWMS Pilot-Based Resource Provisioning]], the [[Site Token Authentication Migration for Pilot Submission]], [[CMS CPU and Resource Efficiency]] work, and [[CMS Adoption of DiracX for Future Workflow Management]] all sit.
 
 ## Current Understanding
 
@@ -24,7 +24,7 @@ The core SI control plane runs with CERN as primary and Fermilab as standby (mas
 
 ### Team structure and staffing (as of September 2026 — this changes quickly)
 
-SI is a small team (on the order of 5 people), co-led by Antonio Pérez-Calero Yzquierdo and Marco Mascheroni, distinct from two related but separate groupings: the **New WM Dev Team** (evaluating and building the future DIRAC/DiracX-based system — see [[CMS Adoption of DiracX for Future Workload Management]]), and **Factory Operations** (the multi-experiment glideinWMS factory work, led on the US/OSG side by Jeff Dost).
+SI is a small team (on the order of 5 people), co-led by Antonio Pérez-Calero Yzquierdo and Marco Mascheroni, distinct from two related but separate groupings: the **New WM Dev Team** (evaluating and building the future DIRAC/DiracX-based system — see [[CMS Adoption of DiracX for Future Workflow Management]]), and **Factory Operations** (the multi-experiment glideinWMS factory work, led on the US/OSG side by Jeff Dost).
 
 Staffing changed substantially within the corpus period: Luis Simas joined as a factory-operations hire in March 2026; Florian Von Cube's position (CAT-affiliated, not CERN-employed) ended around May 2026, and he departed for KIT while retaining a bounded, time-limited role on glideinWMS/DiracX global-pool integration under the DIRAC project umbrella; Pablo Izquierdo Gonzalez joined in September 2026 as the new HTCondor/front-end operator, restoring what the team called "nominal" or "full" staffing. As of early September 2026, Pablo was becoming the team's main day-to-day operator, while Luis — despite having joined only in March — was already regarded as senior enough to take on forward-looking projects (Factory-to-Kubernetes migration, AI-tooling integration).
 
@@ -43,8 +43,8 @@ A scale test recorded in June 2026 confirmed roughly 800,000 simultaneously runn
 
 ## Relationships
 
-- Umbrella organizational and computing-model concept for [[GlideinWMS Pilot-Based Resource Provisioning]], [[Site Token Authentication Migration for Pilot Submission]], [[CMS CPU and Resource Efficiency]], and [[CMS Adoption of DiracX for Future Workload Management]].
-- The "New WM Dev Team" described here as organizationally distinct from day-to-day SI operations is the home of the work described in [[CMS Adoption of DiracX for Future Workload Management]].
+- Umbrella organizational and computing-model concept for [[GlideinWMS Pilot-Based Resource Provisioning]], [[Site Token Authentication Migration for Pilot Submission]], [[CMS CPU and Resource Efficiency]], and [[CMS Adoption of DiracX for Future Workflow Management]].
+- The "New WM Dev Team" described here as organizationally distinct from day-to-day SI operations is the home of the work described in [[CMS Adoption of DiracX for Future Workflow Management]].
 - Effort-allocation and use-case-boundary decisions made within SI/New WM Dev Team meetings (e.g., CMS Connect staying outside DiracX for simple submission) materially constrain the scope of that DiracX transition.
 
 ## Sources

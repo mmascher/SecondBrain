@@ -6,7 +6,7 @@ type: concept
 
 ## Overview
 
-[[glideinWMS]] is CMS's established, in-production mechanism for acquiring and allocating compute resources — the execution layer underneath [[Submission Infrastructure]]. It implements a pull, late-binding "pilot" model: rather than pushing a specific task to a specific site, glideinWMS submits generic [[Pilot Jobs]] ("glideins") to Compute Elements, and only once a pilot is running and registered in the [[HTCondor]] pool does a real user/production job get matched to it. This is the most stable, best-corroborated architectural concept in the corpus — the same architecture, components, and lifecycle were independently re-explained, consistently, across training and walkthrough sessions spanning seven months, and it is explicitly slated to remain CMS's execution/pilot layer even as the workload-management layer above it changes (see [[CMS Adoption of DiracX for Future Workload Management]]).
+[[glideinWMS]] is CMS's established, in-production mechanism for acquiring and allocating compute resources — the execution layer underneath [[Submission Infrastructure]]. It implements a pull, late-binding "pilot" model: rather than pushing a specific task to a specific site, glideinWMS submits generic [[Pilot Jobs]] ("glideins") to Compute Elements, and only once a pilot is running and registered in the [[HTCondor]] pool does a real user/production job get matched to it. This is the most stable, best-corroborated architectural concept in the corpus — the same architecture, components, and lifecycle were independently re-explained, consistently, across training and walkthrough sessions spanning seven months, and it is explicitly slated to remain CMS's execution/pilot layer even as the workload-management layer above it changes (see [[CMS Adoption of DiracX for Future Workflow Management]]).
 
 ## Current Understanding
 
@@ -57,7 +57,7 @@ Terminology and diagrams were repeatedly found outdated or inconsistent when re-
 
 ## Relationships
 
-- The execution/pilot layer that [[CMS Adoption of DiracX for Future Workload Management]] is explicitly designed to sit on top of, not replace.
+- The execution/pilot layer that [[CMS Adoption of DiracX for Future Workflow Management]] is explicitly designed to sit on top of, not replace.
 - Carries [[Site Token Authentication Migration for Pilot Submission]] as a major operational workstream layered on this same architecture.
 - The pilot "overloading"/oversubscription mechanism inside this architecture is a concrete, measured lever discussed under [[CMS CPU and Resource Efficiency]], and is also the mechanical explanation for observed divergence between site-reported and payload-level efficiency figures.
 - Sits under the broader computing-model framing described in [[Submission Infrastructure]] (the pull/late-binding pilot model, contrasted there with push/vacuum models).
